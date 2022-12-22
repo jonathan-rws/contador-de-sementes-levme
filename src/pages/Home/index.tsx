@@ -50,17 +50,17 @@ export function Home() {
         <SelectContainer>
           <SelectButton
             type="button"
-            isActive={isGram}
-            onClick={handleChangeisGram}
-            disabled={isGram}>
-            Grama
-          </SelectButton>
-          <SelectButton
-            type="button"
             isActive={!isGram}
             onClick={handleChangeisGram}
             disabled={!isGram}>
             Miligrama
+          </SelectButton>
+          <SelectButton
+            type="button"
+            isActive={isGram}
+            onClick={handleChangeisGram}
+            disabled={isGram}>
+            Grama
           </SelectButton>
         </SelectContainer>
         <CalculateButton type="submit">Calcular</CalculateButton>
