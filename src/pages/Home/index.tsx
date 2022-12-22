@@ -3,7 +3,7 @@ import imgLogo from '../../assets/logo.jpg'
 import { FormEvent, useState } from "react";
 export function Home() {
 
-  const [isGram, setIsGram] = useState(true)
+  const [isGram, setIsGram] = useState(false)
   const [amountPerGram, setAmountPerGram] = useState('')
   const [weigth, setWeigth] = useState('')
   const [totalSeeds, setTotalSeeds] = useState<number>(0)
